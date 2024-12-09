@@ -5,6 +5,14 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Platforms>AnyCPU;x64</Platforms>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ML.OnnxRuntime" Version="1.20.1" />
+    <PackageReference Include="Microsoft.ML.OnnxTransformer" Version="4.0.0" />
+    <PackageReference Include="Tokenizers.DotNet" Version="1.0.5" />
+    <PackageReference Include="Tokenizers.DotNet.runtime.win" Version="1.0.5" />
+  </ItemGroup>
 
 </Project>
